@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dollars2Cents</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="heading">Dollars to Cents Converter</h1>
+      <div class="dollars">
+        <p class="dollars__heading sub-heading">Enter Amount in Dollars</p>
+        <input type="text" name="dollars" id="dollars" class="dollars__input" />
+        <button class="dollars__convert button">Convert</button>
+      </div>
+      <div class="cents">
+        <p class="cents__heading sub-heading">You have:</p>
+        <div class="cents__result">0</div>
+        <span class="cents__result__label">Cents</span>
+      </div>
+
+      <div class="coins">
+        <p class="coin">Quarter</p>
+        <p class="coin">Dime</p>
+        <p class="coin">Nickel</p>
+        <p class="coin">Penny</p>
+        <div id="quarter" class="coin__result">0</div>
+        <div id="dime" class="coin__result">0</div>
+        <div id="nickel" class="coin__result">0</div>
+        <div id="penny" class="coin__result">0</div>
+      </div>
+      <footer>
+        <p class="info">created by Prajwal J</p>
+      </footer>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

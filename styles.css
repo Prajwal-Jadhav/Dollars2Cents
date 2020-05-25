@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #181d27;
+  --background: #74a57f;
+  --green: #058c42;
+  --red: #f06543;
+  --white: #f7f7f2;
+}
+
+body {
+  padding: 30px;
+  font-family: "Economica", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 1em;
+  color: var(--text-color);
+}
+
+.dollars {
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-heading {
+  font-size: 25px;
+  color: var(--text-color);
+}
+
+.dollars__heading {
+  margin-bottom: 20px;
+}
+
+.dollars__input {
+  width: 100px;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Economica", sans-serif;
+  font-size: 22px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.dollars__convert {
+  font-family: "Economica", sans-serif;
+  font-size: 18px;
+  padding: 2.5px 10px;
+  border-radius: 10px;
+  color: var(--white);
+  background-color: var(--green);
+  border: none;
+  outline: none;
+}
+
+.dollars__convert:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.cents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+.cents__heading {
+  margin-bottom: 15px;
+}
+
+.cents__result {
+  font-size: 32px;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.cents__result__label {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.coins {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  justify-items: center;
+  gap: 10px 20px;
+  margin-bottom: 200px;
+}
+
+.coin {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.coin__result {
+  font-size: 32px;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.info {
+  text-align: center;
+}
